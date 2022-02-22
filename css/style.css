@@ -1,0 +1,109 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-size: 16px;
+    font-family: 'DM Sans', sans-serif;
+}
+
+.container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1070px;
+    margin: 0 auto;
+}
+
+.btn {
+    width: 212px;
+    height: 60px;
+    font-weight: bold;
+    font-size: 17px;
+    line-height: 22px;
+    text-align: center;
+    letter-spacing: -0.531474px;
+
+    border-radius: 10px;
+    border: none;
+    cursor: pointer;
+}
+
+.header, .footer {
+    background: rgba(255, 113, 67, 0.27);
+}
+
+.header__container, .footer__container {
+    padding: 38px 0 47px;
+}
+
+.header__list, .footer__list {
+    list-style: none;
+}
+
+.header__item, .footer__item {
+    display: inline-block;
+}
+
+.header__item:not(:first-of-type), .footer__item:not(:first-of-type) {
+    margin: 0 0 0 49px;
+}
+.header__link, .footer__link  {
+    font-weight: bold;
+    font-size: 15px;
+    line-height: 20px;    
+    letter-spacing: -0.468947px;
+    
+    color: #696871;
+    text-decoration: none;
+}
+
+.header__link:hover, .footer__link:hover {
+    color: #19191B;
+    transition: 300ms;
+}
+
+.header__btn {
+    color: #FFFFFF;
+    background: #FF7143;
+}
+
+/*  1 Секция  */
+
+.info {
+    margin: 104px 0 80px 0;
+}
+
+.info__title {
+    max-width: 467px;
+    font-weight: bold;
+    font-size: 80px;
+    line-height: 77px;
+
+    letter-spacing: -2.50105px;
+
+    color: #19191B;
+}
+
+.info__descr {
+    max-width: 464px;
+    font-family: 'Mulish', sans-serif;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 30px;
+
+    letter-spacing: -0.625263px;
+
+    color: #696871;
+    margin: 30px 0 50px 0;
+}
+
+.info__start {
+    color: white;
+    background: #5454D4;
+    margin: 0 35.6px 0 0;
+}
+
+.info__try {
+    color: #5454D4;
+    background: white;
+    border: 1px solid #5454D4;
+}
